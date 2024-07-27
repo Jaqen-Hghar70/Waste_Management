@@ -1,0 +1,119 @@
+.modalBackground {
+    height: 90vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  } 
+  
+  .modalContainer {
+    width: 500px;
+    height: 440px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }  
+  
+  .modalContainer .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: 5px;
+    gap : 10px;
+    color: green;
+    /* border: 1px solid red; */
+
+  }
+
+  .titleSuccess {
+    font-size: 30px;
+  }
+  
+  /* .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: crimson;
+    cursor: pointer;
+  } */
+
+  
+  /* .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  } */
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    text-align: center;
+    /* border: 1px solid yellow; */
+  }
+  
+  .modalContainer .down {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : lightgray;
+    /* border: 1px solid black; */
+  }
+  
+  /* .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  } */
+  
+
+  #homeBtn {
+    background: crimson;
+    border: 1px solid crimson;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    outline: 0;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  #homeBtn:hover,
+  #homeBtn:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: crimson;
+  }
+  
+  #homeBtn:active {
+    opacity: .8;
+  }
